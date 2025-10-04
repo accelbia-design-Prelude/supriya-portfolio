@@ -1,0 +1,23 @@
+{
+  "name": "Supriya Kumari - Portfolio",
+  "short_name": "Supriya Kumari",
+  "description": "A portfolio showcasing the projects, skills, and achievements of Supriya Kumari.",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-light.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/icon-dark.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#378993",
+  "background_color": "#ffffff"
+}

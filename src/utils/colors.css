@@ -1,0 +1,17 @@
+:root {
+  /* Light mode variables */
+  --primary-color: #378993; /* Updated theme color */
+  --secondary-color: #8effbd; /* Green */
+  --accent-color: #e74c3c; /* Red */
+  --background-color: #f4f4f4; /* Light Gray */
+  --text-color: #333333; /* Dark Gray */
+}
+
+.dark-mode {
+  /* Dark mode variables */
+  --primary-color: #378993; /* Updated theme color */
+  --secondary-color: #8effbd; /* Darker Green */
+  --accent-color: #c0392b; /* Darker Red */
+  --background-color: #1e1e1e; /* Dark Gray */
+  --text-color: #f4f4f4; /* Light Gray */
+}

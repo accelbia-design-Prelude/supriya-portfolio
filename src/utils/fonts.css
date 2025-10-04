@@ -1,0 +1,72 @@
+/* Font-face definitions */
+
+/* Bebas Neue */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Sign Rathi */
+@font-face {
+  font-family: "Sign Rathi";
+  src: url("/assets/fonts/Sign-Rathi/Sign Rathi.ttf") format("truetype"),
+    url("/assets/fonts/Sign-Rathi/Sign Rathi.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Very Vogue */
+@font-face {
+  font-family: "Very Vogue Display";
+  src: url("/assets/fonts/very-vogue-font/nicky-laatz-very-vogue-display.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Very Vogue Display Italic";
+  src: url("/assets/fonts/very-vogue-font/nicky-laatz-very-vogue-display-italic.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Very Vogue Text";
+  src: url("/assets/fonts/very-vogue-font/nicky-laatz-very-vogue-text.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Very Vogue Text Italic";
+  src: url("/assets/fonts/very-vogue-font/nicky-laatz-very-vogue-text-italic.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+:root {
+  /* Fonts */
+  --font-heading: "Sign Rathi", cursive;
+  --font-subheading: "Montserrat", sans-serif;
+  --font-text: "Very Vogue Display", serif;
+  --font-highlight: "Bebas Neue", sans-serif;
+}
