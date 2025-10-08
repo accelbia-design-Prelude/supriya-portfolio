@@ -147,8 +147,16 @@ function App() {
       </div>
       <div className="page">
         <p className="centered typed" ref={typedRef}>
-          I am Supriya Kumari, a creative professional skilled in design,
-          modeling, and visual merchandising.
+          I am Supriya Kumari, a passionate fashion enthusiast who views design
+          as a language of self-expression and endless exploration. My creative
+          philosophy embraces duality, balancing structure with fluidity,
+          minimalism with boldness, and imagination with wearability.
+          <br />I don’t confine myself to a single aesthetic; instead, my work
+          evolves with concept, emotion, and experimentation. I find inspiration
+          in contrasts, translating them into designs that speak individuality
+          and intent. <br />
+          For me, fashion is not just about creating garments, but about
+          crafting experiences that connect vision, movement, and meaning.
         </p>
         <a
           href="/assets/Supriya - Resume.pdf"
