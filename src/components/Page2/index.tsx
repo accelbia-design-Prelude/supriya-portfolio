@@ -6,8 +6,8 @@ const Page2 = () => {
   const [showButton, setShowButton] = useState(false);
 
   const handleResumeClick = () => {
-    // Open the resume PDF in a new tab
-    window.open('/assets/Supriya - Resume.pdf', '_blank');
+    // Open the resume PDF in a new tab with correct base path
+    window.open('/supriya-portfolio/assets/Supriya - Resume.pdf', '_blank');
   };
 
   useEffect(() => {
