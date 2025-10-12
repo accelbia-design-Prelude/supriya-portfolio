@@ -50,7 +50,7 @@
   background: transparent;
   border: 1px solid white;
   color: white;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
   font-size: clamp(14px, 2vw, 16px);
   font-weight: 500;
   cursor: pointer;

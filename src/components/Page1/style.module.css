@@ -1,7 +1,7 @@
 .title {
-  font-family: "Sign Rathi", cursive;
+  font-family: 'Sign Rathi', cursive;
   font-weight: 400;
-  font-size: 22rem;
+  font-size: 18rem;
   color: #333333;
   text-align: center;
 
@@ -19,11 +19,11 @@
 }
 
 .subhead {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 10px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #666666;
   text-align: center;
 

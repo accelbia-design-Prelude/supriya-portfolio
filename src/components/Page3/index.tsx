@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
-import "intersection-observer";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import 'intersection-observer';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const Page3: React.FC = () => {
   useEffect(() => {
@@ -10,16 +10,16 @@ const Page3: React.FC = () => {
       gsap.registerPlugin(ScrollTrigger);
 
       const horizontalWrapper = document.querySelector<HTMLElement>(
-        "#horizontal-section-wrapper"
+        '#horizontal-section-wrapper'
       );
       const horizontalScroller = document.querySelector<HTMLElement>(
-        ".horizontal-scroller"
+        '.horizontal-scroller'
       );
 
       if (horizontalWrapper && horizontalScroller) {
         gsap.to(horizontalScroller, {
           x: () => `-${horizontalScroller.offsetWidth - window.innerWidth}px`,
-          ease: "none",
+          ease: 'none',
           scrollTrigger: {
             trigger: horizontalWrapper,
             pin: true,
@@ -34,10 +34,10 @@ const Page3: React.FC = () => {
       ScrollTrigger.refresh();
     };
 
-    window.addEventListener("load", initializeScrolling);
+    window.addEventListener('load', initializeScrolling);
 
     return () => {
-      window.removeEventListener("load", initializeScrolling);
+      window.removeEventListener('load', initializeScrolling);
     };
   }, []);
 

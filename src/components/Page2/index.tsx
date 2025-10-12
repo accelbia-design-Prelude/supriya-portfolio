@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from "react";
-import styles from "./style.module.css";
+import { useEffect, useRef, useState } from 'react';
+import styles from './style.module.css';
 
 const Page2 = () => {
   const textRef = useRef<HTMLDivElement>(null);
@@ -7,7 +7,7 @@ const Page2 = () => {
 
   const handleResumeClick = () => {
     // Open the resume PDF in a new tab
-    window.open("/assets/Supriya - Resume.pdf", "_blank");
+    window.open('/assets/Supriya - Resume.pdf', '_blank');
   };
 
   useEffect(() => {
@@ -15,30 +15,30 @@ const Page2 = () => {
     if (!textElement) return;
 
     // Split text into words and wrap each in a span
-    const text = textElement.textContent || "";
-    const words = text.split(" ");
+    const text = textElement.textContent || '';
+    const words = text.split(' ');
 
     textElement.innerHTML = words
       .map((word, index) => {
         // Handle line breaks
-        if (word.includes("\n")) {
+        if (word.includes('\n')) {
           return `<span class="${styles.word}" style="--delay: ${
             index * 0.1
-          }s">${word.replace(/\n/g, "")}</span><br/>`;
+          }s">${word.replace(/\n/g, '')}</span><br/>`;
         }
         return `<span class="${styles.word}" style="--delay: ${
           index * 0.1
         }s">${word}</span>`;
       })
-      .join(" ");
+      .join(' ');
 
     // Intersection Observer for animation trigger
     const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
+      entries => {
+        entries.forEach(entry => {
           if (entry.isIntersecting) {
             const words = entry.target.querySelectorAll(`.${styles.word}`);
-            words.forEach((word) => {
+            words.forEach(word => {
               word.classList.add(styles.animate);
             });
 
@@ -53,7 +53,7 @@ const Page2 = () => {
       },
       {
         threshold: 0.3,
-        rootMargin: "0px 0px -100px 0px",
+        rootMargin: '0px 0px -100px 0px',
       }
     );
 
@@ -77,7 +77,7 @@ const Page2 = () => {
         </div>
 
         <button
-          className={`${styles.resumeButton} ${showButton ? styles.show : ""}`}
+          className={`${styles.resumeButton} ${showButton ? styles.show : ''}`}
           onClick={handleResumeClick}
         >
           resume

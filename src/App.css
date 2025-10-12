@@ -12,7 +12,7 @@ body {
   padding: 0;
   background-color: #ffffff;
   overflow-x: hidden; /* Prevent horizontal scroll on body */
-  font-family: "Very Vogue Display Italic", sans-serif;
+  font-family: 'Very Vogue Display Italic', sans-serif;
 }
 
 #main-container {
