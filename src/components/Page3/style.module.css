@@ -1,0 +1,17 @@
+/* Horizontal Scrolling Section Styles */
+#horizontal-section-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.horizontal-scroller {
+  width: 400vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  will-change: transform;
+}

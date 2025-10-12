@@ -1,0 +1,59 @@
+.title {
+  font-family: "Sign Rathi", cursive;
+  font-weight: 400;
+  font-size: 22rem;
+  color: #333333;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 8rem;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.subhead {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 10px;
+  font-size: 1.5rem;
+  color: #666666;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 0.7rem;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    lightgray,
+    var(--primary-color)
+  );
+  background-size: 300% 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer-animation 3s infinite;
+}
+
+@keyframes shimmer-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
