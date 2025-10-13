@@ -19,7 +19,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('src/assets/bg.png'); /* Replace with your image path */
+  background-image: url('/assets/bg.png'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
