@@ -149,7 +149,7 @@ const Page4 = () => {
         </a>
 
         <a
-          href="https://www.instagram.com/supriya_kumari0209"
+          href="https://www.instagram.com/_supriya.ku_"
           className={`${styles.socialLink} ${visibleElements.includes('social3') ? styles.visible : styles.hidden}`}
           target="_blank"
           rel="noopener noreferrer"

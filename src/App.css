@@ -55,7 +55,7 @@ body {
 }
 
 .horizontal-scroller {
-  width: 400vw;
+  width: 500vw;
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;

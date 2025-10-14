@@ -51,14 +51,14 @@
   background: linear-gradient(
     90deg,
     rgb(210, 255, 252),
-    lightgray,
-    rgb(210, 255, 252)
+    rgb(255, 255, 255),
+    rgb(201, 201, 201)
   );
   background-size: 300% 300%;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* animation: shimmer-animation 3s infinite; */
+  animation: shimmer-animation 3s infinite;
 }
 
 @keyframes shimmer-animation {

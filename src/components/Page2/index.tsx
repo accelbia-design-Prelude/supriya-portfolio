@@ -71,19 +71,19 @@ const Page2 = () => {
     'in',
     'contrasts,',
     'in',
-    <HLAnimation col1="#ffffff" col2="#87ceeb" speed={2}>
+    <HLAnimation col1="#ffffff" col2="#87ceeb" speed={5}>
       light
     </HLAnimation>,
     'and',
-    <HLAnimation col1="#000000" col2="#9b59b6" speed={2}>
+    <HLAnimation col1="#000000" col2="#9b59b6" speed={5}>
       shadow
     </HLAnimation>,
     ',',
-    <HLAnimation col1="#228b22" col2="#90ee90" speed={2}>
+    <HLAnimation col1="#228b22" col2="#90ee90" speed={5}>
       nature
     </HLAnimation>,
     'and',
-    <HLAnimation col1="#1e90ff" col2="#87ceeb" speed={2}>
+    <HLAnimation col1="#1e90ff" col2="#87ceeb" speed={5}>
       innovation,
     </HLAnimation>,
     'and',
